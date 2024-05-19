@@ -26,7 +26,7 @@ function support() -- Include("\\script\\vng_event\\tanthu\\giveskill60.lua")
 	--tinsert(tbOpt, {"TÈy Tñy",clear_attibute_point})
 	--tinsert(tbOpt, {"Céng ®iÓm nhanh",add_prop})
 	tinsert(tbOpt, {"KÕt thóc ®èi tho¹i."})
-	CreateNewSayEx("<npc>Chµo mõng quý nh©n sÜ ®Õn víi <color=yellow>Vâ L©m TruyÒn Kú<color><enter>* Trang chñ: <color=violet>https://youtube.com/c/PYTAGAMING<color><enter>H·y th­êng xuyªn truy cËp ®Ó cã ®­îc nh÷ng b¶n update míi nhÊt", tbOpt)
+	CreateNewSayEx("<npc>Chµo mõng quý nh©n sÜ ®Õn víi <color=yellow>Vâ L©m TruyÒn Kú<color><enter>* Trang chñ: <color=violet><color><enter>H·y th­êng xuyªn truy cËp ®Ó cã ®­îc nh÷ng b¶n update míi nhÊt", tbOpt)
 end
 
 function dialog_hotro_main()

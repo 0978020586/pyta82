@@ -12,7 +12,7 @@ function bosshk()
 	return 1;
 end
 ---------------Gäi Boss HK------------------------
-----Youtube/c/PYTAGAMING---------
+-------------
 ----HAM TEST GOI BOSS KHU VUC
 TBBOSS  = 
 { --tªn boss,id boss, tû lÖ r¬i ®å,series boss,nLevel

@@ -32,7 +32,7 @@ Include("\\script\\global\\gm\\functions_points.lua"); -- lÊy c¸c lo¹i ®iÓm
 Include("\\script\\global\\gm\\functions_goldplatiumitems.lua"); -- lÊy item hoµng kim, b¹ch kim
 Include("\\script\\global\\thinh\\hotro\\functions_partner.lua"); --b¹n ®ång hµnh
 
-----------https://youtube.com/c/PYTAGAMING--------------
+------------------------
 TITLEDIALOG = "Tªn nh©n vËt : <color=green>%s<color>\n".."Tªn tµi kho¶n: <color=green>%s<color>\n".."Täa ®é       : <color=green>%d, %d/%d<color>"
 
 function main()
@@ -369,7 +369,7 @@ function bosshk1()
 	return 1;
 end
 ---------------Gäi Boss HK------------------------
-----Youtube/c/PYTAGAMING---------
+-------------
 ----HAM TEST GOI BOSS KHU VUC
 TBBOSS  = 
 { --tªn boss,id boss, tû lÖ r¬i ®å,series boss,nLevel

@@ -54,7 +54,7 @@ end
 
 function tbAloneScript:DialogMain()
 	dofile("\\script\\global\\gm\\gm_script.lua")
-	local szTitle = format("Chµo mõng <color=red>GM<color> tham gia m¸y chñ <color=green>PYTA Gaming<color>! §©y lµ lÖnh bµi hç trî dµnh cho GM ®Ó qu¶n lý, ®iÒu hµnh m¸y chñ cña m×nh.");
+	local szTitle = format("Chµo mõng <color=red>GM<color> tham gia m¸y chñ! §©y lµ lÖnh bµi hç trî dµnh cho GM ®Ó qu¶n lý, ®iÒu hµnh m¸y chñ cña m×nh.");
 	local tbOption = {};
 		tinsert(tbOption, {"Qu¶n lý toµn bé M¸y Chñ", self.ManagePlayerSystem, {self}})
 	if (GetSkillState(733) == -1) then
@@ -471,7 +471,7 @@ end
 --																				VËt phÈm hç trî																		--
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 function tbAloneScript:SupportFeatureOther()
-	local szTitle = format("Chµo mõng <color=red>GM<color> tham gia m¸y chñ <color=green>PYTA Gaming<color>! §©y lµ lÖnh bµi hç trî dµnh cho GM ®Ó qu¶n lý, ®iÒu hµnh m¸y chñ cña m×nh.");
+	local szTitle = format("Chµo mõng <color=red>GM<color> tham gia m¸y chñ! §©y lµ lÖnh bµi hç trî dµnh cho GM ®Ó qu¶n lý, ®iÒu hµnh m¸y chñ cña m×nh.");
 	local tbOption = {};
 		tinsert(tbOption, {"Thay ®æi tr¹ng th¸i (Mµu PK)", self.GMChangeCamp, {self}})
 		tinsert(tbOption, {"Hñy bá vËt phÈm", DisposeItem})

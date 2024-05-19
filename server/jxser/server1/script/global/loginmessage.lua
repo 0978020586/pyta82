@@ -5,7 +5,7 @@ Include("\\script\\lib\\awardtemplet.lua");
 function LoginMessage()
 	local nLevel = GetLevel();
 	if (nLevel >= 1) then		
-		Msg2Player("Chµo mõng b¹n ®Õn víi <color=yellow>            Vâ L©m TruyÒn Kú<color><enter>- YTB: <color=red>https://youtube.com/c/PYTAGAMING<color>")
+		Msg2Player("Chµo mõng b¹n ®Õn víi <color=yellow>            Vâ L©m TruyÒn Kú<color><enter>- YTB: <color=red><color>")
 	end
 end
 

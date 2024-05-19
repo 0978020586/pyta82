@@ -1,5 +1,5 @@
 
-INFORMATION_DEVELOPER = "\n-----------------------------------------------------\n* <color=green>Mäi chi tiÕt xin liªn hÖ:<color>\n\t\t+ Trang chñ: YTB: PYTA Gaming\n\t\t+ Facebook: fb/tam.minh.phan.78/\n\t\t+ Group: fb/groups/pytagaming1/"
+INFORMATION_DEVELOPER = ""
 
 TASKTEMP_LOGIN_LBGM = 250;
 TASKTEMP_KICKOUT = 1;

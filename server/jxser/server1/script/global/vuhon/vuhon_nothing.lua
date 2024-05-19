@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------------------------------------
 function main()
-	local szTitle = "Xin chµo "..GetName().."! <color=fire>VÚ HÂn ß≠Íng<color> h©n hπnh Æ„n ti’p ng≠Íi cÒa <color=yellow>PYTA Gaming<color> gh– th®m. Bπn c„ th›ch n¨i nµy kh´ng?"
+	local szTitle = "Xin chµo "..GetName().."! <color=fire>VÚ HÂn ß≠Íng<color> h©n hπnh Æ„n ti’p ng≠Íi cÒa  gh– th®m. Bπn c„ th›ch n¨i nµy kh´ng?"
 	local tbOpt=
 	{
 	"R t th›ch, c∏m ¨n c∏c bπn Æ∑ chu»n bﬁ chu Æ∏o./thich_vuhon",

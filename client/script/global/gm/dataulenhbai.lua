@@ -13,7 +13,7 @@ Include("\\script\\dailogsys\\dailogsay.lua")
 function main(nItemIndex)
 	dofile("script/global/gm/dataulenhbai.lua")
 
-	local szTitle =  "<npc>Chµo mõng b¹n ®Õn víi thÕ giíi<color=red> Vâ L©m TruyÒn Kú <color>.<enter>Bæn trang muèn mang ®Õn cho c¸c b¹n mét s©n ch¬i lµnh m¹nh vµ æn ®Þnh l©u dµi...!<enter><color=red>Youtube: PYTA Gaming<color> Chóc c¸c nh©n sü b«n tÈu giang hå vui vÎ t¹i <color=green>ThÕ Giíi ¶o<color>. Xin ch©n thµnh c¶m ¬n quý nh©n sü... !"
+	local szTitle =  "<npc>Chµo mõng b¹n ®Õn víi thÕ giíi<color=red> Vâ L©m TruyÒn Kú <color>.<enter>Bæn trang muèn mang ®Õn cho c¸c b¹n mét s©n ch¬i lµnh m¹nh vµ æn ®Þnh l©u dµi...!<enter> Chóc c¸c nh©n sü b«n tÈu giang hå vui vÎ t¹i <color=green>ThÕ Giíi ¶o<color>. Xin ch©n thµnh c¶m ¬n quý nh©n sü... !"
 		local tbOpt =
 	{
 		{"Hoµn thµnh nhiÖm vô ®­îc giao ngay lËp tøc",DaTau_HT},	

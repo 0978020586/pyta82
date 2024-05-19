@@ -18,7 +18,7 @@ end
 function DailogClass:_init(szNpcName)
 	self.szNpcName = szNpcName
 	self.tbOptionList = {}
-	self.szTitleMsg = "<npc>Chµo mõng b¹n ®Õn víi <color=yellow>Vâ L©m TruyÒn Kú<color=yellow><enter>- <color=Red>Youtube:<color> <color=yellow>PYTA Gaming<color>"
+	self.szTitleMsg = "<npc>Chµo mõng b¹n ®Õn víi <color=yellow>Vâ L©m TruyÒn Kú<color=yellow><enter>- VLTK Offline"
 	self.szPreDailogName = ""
 end
 

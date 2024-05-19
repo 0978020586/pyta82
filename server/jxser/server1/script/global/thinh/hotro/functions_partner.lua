@@ -40,7 +40,7 @@ end
 ------------------------------------------------ §æi Tªn --------------------------------
 
 function change_name_pet()
-	AskClientForString("DoiTenPet", "PYTA Gaming", 1, 500, "<#>NhËp tªn pet")
+	AskClientForString("DoiTenPet", "VLTK Offline", 1, 500, "<#>NhËp tªn pet")
 end
 
 function DoiTenPet(szName)
