@@ -141,8 +141,8 @@ function tbGiveSkill60:GetSkillSupport()
 	--AddSkillState(1594, 1, 1, 1555200 *1095 , 1) 
 	--AddSkillState(1594, 1, 1, 64800*8 , 1) --8 giê
 	--(60*18)*--> 1phut ==> (60*18)*60=1h
-	AddSkillState(440,1,1,64800,1)
-	AddSkillState(987,1,1,64800,1)
+	AddSkillState(440,1,1,64800*8,1)
+	AddSkillState(987,1,1,64800*8,1)
 	Msg2Player("B¹n nhËn phÇn th­ëng thµnh c«ng")
 end
 

@@ -56,6 +56,8 @@ Include("\\script\\activitysys\\functionlib.lua")
 Include("\\script\\event\\other\\shensuanzi\\class.lua")
 
 Include("\\script\\task\\150skilltask\\g_task.lua")
+Include("\\script\\global\\vinh\\main.lua")
+
 
 function main()
 	--Thien Tri Mat Canh
@@ -139,9 +141,11 @@ function main()
 	add_npc_thinh()
 	add_npc_thanh()
 	add_npc_hoason()
-                 --add_npc_vuhon()
+	add_npc_vinh()                 --add_npc_vuhon()
 	local szFile = "\\script\\event\\great_night\\great_night_head.lua"
 	DynamicExecute(szFile, "OnGreatNightServerStart")
+
+
 end;
 
 function load_mission_aexp()
