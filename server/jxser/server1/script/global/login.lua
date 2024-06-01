@@ -72,22 +72,33 @@ tbTop10:LuuDSNhanVat()
 	--		RemoveSkillState(1995)
 	--	end
 	--end
-	-------------------
-	if HaveCommonItem(6,1,1266)<1 then
-	tbAwardTemplet:GiveAwardByList({{szName="",tbProp={6,1,1266,1,0},nCount=1,},}, "npctest", 1); 
-	end
+
+	if HaveCommonItem(6,1,1266) <1 then
+		tbAwardTemplet:GiveAwardByList({{szName="Phï",tbProp={6,1,1266,1,0},nCount=1,},}, "npctest", 1);
+	end	
 	if HaveCommonItem(6,1,438)<1 then
-	tbAwardTemplet:GiveAwardByList({{szName="",tbProp={6,1,438,1,0},nCount=1,},}, "npctest", 1); 
+		tbAwardTemplet:GiveAwardByList({{szName="Phï",tbProp={6,1,438,1,0},nCount=1,},}, "npctest", 1);
 	end
-	if HaveCommonItem(6,1,5122)<1 then
-	tbAwardTemplet:GiveAwardByList({{szName="",tbProp={6,1,5122,1,0},nCount=1,},}, "npctest", 1); 
+
+	for i=15000, 15004 then
+		if HaveCommonItem(6,1,i) <1 then
+			tbAwardTemplet:GiveAwardByList({{szName="LB",tbProp={6,1,i,1,0},nCount=1,},}, "npctest", 1);
+		end	
 	end
-	if HaveCommonItem(6,1,5123)<1 then
-	tbAwardTemplet:GiveAwardByList({{szName="",tbProp={6,1,5123,1,0},nCount=1,},}, "npctest", 1); 
-	end
-	if HaveCommonItem(6,1,5124)<1 then
-	tbAwardTemplet:GiveAwardByList({{szName="",tbProp={6,1,5124,1,0},nCount=1,},}, "npctest", 1); 
-	end
+	
+
+
+	-------------------
+ 
+	--if HaveCommonItem(6,1,5122)<1 then
+	--tbAwardTemplet:GiveAwardByList({{szName="",tbProp={6,1,5122,1,0},nCount=1,},}, "npctest", 1); 
+	--end
+	--if HaveCommonItem(6,1,5123)<1 then
+	--tbAwardTemplet:GiveAwardByList({{szName="",tbProp={6,1,5123,1,0},nCount=1,},}, "npctest", 1); 
+	--end
+	--if HaveCommonItem(6,1,5124)<1 then
+	--tbAwardTemplet:GiveAwardByList({{szName="",tbProp={6,1,5124,1,0},nCount=1,},}, "npctest", 1); 
+	--end
 	------------------
 	if (OnlineAward_StartDate() == 1 and OnlineAward_Check_TransferLife() ~= 0) then
 		Msg2Player("§ang trong thêi gian ho¹t ®éng Online NhËn Th­ëng")

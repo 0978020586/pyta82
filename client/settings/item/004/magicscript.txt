@@ -5237,3 +5237,7 @@ LÖnh bµi Qu¶n Lý Server	6	1	5123	\spr\item\script\tongpai_haozhao.spr	38	1	1	LÖn
 LÖnh bµi GM	6	1	5124	\spr\item\script\jinpai_haozhao.spr	38	1	1	LÖnh bµi Admin		0	1	0	\script\global\gm\lbadmin.lua	0	1	1	0	1		0	0	0	0	0	0	0	0	0	0						
 LÖnh bµi Admin	6	1	5125	\spr\item\script\mupai_haozhao.spr	38	1	1	LÖnh bµi Admin		0	1	0	\script\global\gm\ex_lib_function.lua	0	1	1	0	1		0	0	0	0	0	0	0	0	0	0						
 LÖnh bµi lµm NV D· TÈu	6	1	5126	\spr\item\script\wuxuejinyao.spr	38	1	1	LÖnh bµi hç trî lµm nhiÖm vô D· TÈu		0	1	0	\script\global\gm\dataulenhbai.lua	0	1	1	0	1		0	0	0	0	0	0	0	0	0	0						
+LÖnh bµi SimCity	6	1	15000	\spr\item\songjin\token.spr	38	1	1	LÖnh bµi SimCity		0	1	0	\script\global\vinh\simcity\controllers\main.lua	0	1	1	0	1		100	0	0	0	0	0	0	0	0	0						
+LÖnh bµi kÐo xe	6	1	15001	\spr\item\songjin\token.spr	38	1	1	LÖnh bµi kÐo xe		0	1	0	\script\global\vinh\simcity\controllers\keoxe.lua	0	1	1	0	1		100	0	0	0	0	0	0	0	0	0						
+§Þa ®å nhiÖm vô	6	1	15002	\spr\item\script\wuxuejinyao.spr	38	1	1	§Þa ®å chÝ do c¸c cao thñ ®Ó l¹i		0	1	0	\script\global\vinh\item\bandonhiemvu.lua	0	1	1	0	1		0	0	0	0	0	0	0	0	0	0						
+TruyÒn tèng phï	6	1	15003	\spr\item\script\jinpai_haozhao.spr	38	1	1	T×m kiÕm vµ di chuyÓn ®Õn ®Þa ®iÓm ngay lËp tøc		0	1	0	\script\global\vinh\item\googlemap.lua	0	1	1	0	1		0	0	0	0	0	0	0	0	0	0						
