@@ -228,7 +228,7 @@ function branch_hunhun()
 			else
 				Talk(1,"","Xin lçi! §¼ng cÊp cña b¹n v­ît qu¸ ®¼ng cÊp nhiÖm vô yªu cÇu, kh«ng thÓ tiÕp nhËn n÷a! ThËt ng¹i qu¸! ")
 			end
-		elseif (( Uworld1052 == 60 ) or ( Uworld1052 == 70 )) and ( Uworld1011 == 20 ) then --ÑïÖİÑİÎä³¡Õ½Ê¤ÁËÒ»³¡
+		elseif (( Uworld1052 == 60 ) or ( Uworld1052 == 70 )) then --ÑïÖİÑİÎä³¡Õ½Ê¤ÁËÒ»³¡
 			if ( GetLevel() >= 40 ) and ( GetLevel() <  50 ) then
 				nt_setTask(1052,70)
 				Describe(DescLink_HunHun.."<#>:  Hay l¾m! Ng­¬i qu¶ nhiªn rÊt giái.<enter>"
