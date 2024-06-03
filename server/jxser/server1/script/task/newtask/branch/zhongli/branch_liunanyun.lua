@@ -98,7 +98,7 @@ function task_liunanyun()
 			else
 				Talk(1,"Uworld1000_zhfz7","Khi lµm nhiÖm vô gÆp vÊn ®Ò g×, cã thÓ Ên phİm <color=red>F12<color> ®Ó xem nhËt tr×nh. Trong ®ã chØ ghi l¹i c¸c b­íc mµ b¹n ®· thùc hiÖn qua!")
 			end
-		elseif (( Uworld1056 == 20 ) or ( Uworld1056 == 25 )) then --Ôö¼ÓÁËÅĞ¶ÏÊÇ·ñÔÚpkÁËÒ»³¡µÄ±äÁ¿Uworld1011
+		elseif (( Uworld1056 == 20 ) or ( Uworld1056 == 25 )) and ( Uworld1012 == 20 ) then --Ôö¼ÓÁËÅĞ¶ÏÊÇ·ñÔÚpkÁËÒ»³¡µÄ±äÁ¿Uworld1011
 			if ( GetLevel() >= 40 ) and ( GetLevel() <  50 ) then 
 				nt_setTask(1056,25)
 				Describe(DescLink_LiuNanYun.."<#>:  ThÕ nµo ®· biÕt thiªn ngo¹i h÷u thiªn, nh©n ngo¹i h÷u nh©n?.<enter>",1,"KÕt thóc ®èi tho¹i/Uworld1056_zfz6")
