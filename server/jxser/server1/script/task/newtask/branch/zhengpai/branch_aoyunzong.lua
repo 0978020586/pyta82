@@ -6,8 +6,12 @@
  Include("\\script\\task\\newtask\\branch\\branch_prize.lua")
  Include("\\script\\task\\newtask\\branch\\branch_problem.lua")
  Include("\\script\\task\\newtask\\education_setnpcpos.lua")
+ Include("\\script\\task\\newtask\\branch\\branch_bwsj.lua")
 
 function task_aoyunzong()
+	branchTask_BW1()
+	branchTask_GainBW1()
+	branchTask_JoinSJend1()
 	local curCamp = nt_getCamp()
 	Uworld1000 = nt_getTask(1000)
 	Uworld1001 = nt_getTask(1001) --ÕýÅÉÖ÷Ïß

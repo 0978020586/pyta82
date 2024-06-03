@@ -5,6 +5,7 @@ Include("\\script\\task\\newtask\\newtask_head.lua")
 Include("\\script\\task\\newtask\\branch\\branch_head.lua")
 Include("\\script\\task\\newtask\\branch\\branch_prize.lua")
 Include("\\script\\task\\newtask\\branch\\branch_problem.lua")
+Include("\\script\\task\\newtask\\branch\\branch_bwsj.lua")
 
 ----------------------------------------------------------------------痴僧-----------------------------------------------------------------------
 function branch_chiseng()
@@ -177,6 +178,9 @@ end
 
 ----------------------------------------------------------混混---------------------------------------------------------------------------
 function branch_hunhun()
+	branchTask_BW1()
+	branchTask_GainBW1()
+	branchTask_JoinSJend1()
 	Uworld1052 = nt_getTask(1052)
 	Uworld1053 = nt_getTask(1053)
 	Uworld1011 = nt_getTask(1011) --正派支线杀怪变量

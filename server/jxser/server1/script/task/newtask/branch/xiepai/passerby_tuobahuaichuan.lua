@@ -6,7 +6,14 @@
  Include("\\script\\task\\newtask\\branch\\branch_prize.lua")
  Include("\\script\\task\\newtask\\branch\\branch_problem.lua")
  Include("\\script\\task\\newtask\\education_setnpcpos.lua")
+ Include("\\script\\task\\newtask\\branch\\branch_bwsj.lua")
+
 function task_tuobahuaichuan()
+
+	branchTask_BW1()
+	branchTask_GainBW1()
+	branchTask_JoinSJend1()
+
 --------------------------------------------------------------------教学任务------------------------------------------------------------------
 	local curCamp = nt_getCamp()
 	Uworld1000 = nt_getTask(1000)   --教学任务变量
